@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../automation"
+		},
+		{
+			"name": "todo-app",
+			"path": "../automation/todo-app"
+		}
+	],
+	"settings": {}
+}
