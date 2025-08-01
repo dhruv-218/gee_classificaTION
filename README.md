@@ -2,6 +2,20 @@
 
 A project focused on **Land Cover Classification using Google Earth Engine (GEE) with Random Forest Machine Learning**.
 
+> *These screenshots provide further visual insights into the project results or processes.*
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/dhruv-218/gee_classificaTION/blob/main/Screenshot%202025-08-01%20at%208.29.45%E2%80%AFAM.png?raw=true" alt="Screenshot 2025-08-01 at 8.29.45 AM" width="900">
+    </td>
+    <td>
+      <img src="https://github.com/dhruv-218/gee_classificaTION/blob/main/Screenshot%202025-08-02%20at%202.55.41%E2%80%AFAM.png?raw=true" alt="Screenshot 2025-08-02 at 2.55.41 AM" width="900">
+    </td>
+  </tr>
+</table>
+
+
 ## Overview
 
 **gee_classificaTION** is designed to perform supervised land cover classification by leveraging satellite data, machine learning, and the Google Earth Engine cloud platform. The project utilizes a Random Forest classifier to generate a land cover map for a selected region based on training points and input satellite imagery. Outputs include classified maps, model accuracy assessments, and supporting visualizations, suitable for research, monitoring, and spatial analysis.
