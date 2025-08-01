@@ -1,4 +1,4 @@
-# gee_classificaTION
+# gee_classification
 
 A project focused on **Land Cover Classification using Google Earth Engine (GEE) with Random Forest Machine Learning**.
 
