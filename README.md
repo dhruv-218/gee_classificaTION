@@ -2,7 +2,7 @@
 
 A project focused on **Land Cover Classification using Google Earth Engine (GEE) with Random Forest Machine Learning**.
 
-> *These screenshots provide further visual insights into the project results or processes.*
+> *These are the visual insights into the project results or processes.*
 
 <table>
   <tr>
