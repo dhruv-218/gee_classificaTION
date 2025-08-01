@@ -32,6 +32,21 @@ The following outputs are available and hosted via GitHub Pages for direct viewi
   [datapoints.html](https://dhruv-218.github.io/gee_classificaTION/datapoints.html):  
   *Shows the sample points and training dataset that you prepared—these are the foundations for the classification workflow.*
 
+  ### ISRO Certificate
+
+> **Click the image to view/download the certificate PDF.**  
+
+[ISRO Certificate (PDF)](https://github.com/dhruv-218/gee_classificaTION/blob/main/isro_certificate.pdf)
+
+### Confusion Matrix (Model Accuracy)
+
+> *Below is the confusion matrix resulting from the Random Forest model, providing a visual summary of classification accuracy:*
+
+![Confusion Matrix](https://github.com/dhruv-218/gee_classificaTION/blob/main/result_3.png)
+
+---
+
+
 ## Repository Structure
 
 | File/Filename                        | Description                                                                          |
@@ -51,7 +66,7 @@ The following outputs are available and hosted via GitHub Pages for direct viewi
 ### 1. Data Preparation
 - Define a region of interest (ROI), e.g., by drawing polygons.
 - Collect **training samples**: Use polygons/points labeled with land cover classes.
-- Visualize samples via [`datapoints.html`](https://dhruv-218.github.io/gee_classification/datapoints.html).
+- Visualize samples via [`datapoints.html`](https://dhruv-218.github.io/gee_classificaTION/datapoints.html).
 
 ### 2. Satellite Data Selection
 - Access satellite imagery (e.g., Landsat, Sentinel-2) via Google Earth Engine.
@@ -59,14 +74,15 @@ The following outputs are available and hosted via GitHub Pages for direct viewi
 ### 3. Model Training and Classification
 - Run `final_gee_classification.ipynb` in Jupyter.
 - Train the Random Forest classifier, apply to selected image, and export outputs:
-  - Classified map ([land_cover_classification_map.html](https://dhruv-218.github.io/gee_classification/land_cover_classification_map.html))
+  - Classified map ([land_cover_classification_map.html](https://dhruv-218.github.io/gee_classificaTION/mumbai_map.html))
   - Accuracy/confusion matrix (`matrix_randomforest.png`)
 
 ### 4. Model Export/Re-use
 - Trained model saved as `gee_random_forest_model_1000.json` for deployment.
-- Apply saved model at new coordinates/regions ([polygon_region.html](https://dhruv-218.github.io/gee_classification/polygon_region.html)).
+- Apply saved model at new coordinates/regions at pune ([polygon_region.html](https://dhruv-218.github.io/gee_classificaTION/polygon_region.html)).
 
-## Usage
+
+
 
 ### Requirements
 
@@ -74,7 +90,5 @@ The following outputs are available and hosted via GitHub Pages for direct viewi
 - Python 3; Jupyter Notebook recommended
 - Libraries: geemap, earthengine-api, numpy, pandas, matplotlib
 
-### Set Up
 
-Clone the repository:
 
